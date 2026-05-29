@@ -84,6 +84,24 @@ C:\xampp\htdocs\online-food-ordering
 4. Import this file:
    - `sql/database.sql`
 
+#### Where is `sql/database.sql` and how do I import it?
+`sql/database.sql` is inside this project folder. For example, if your project is here:
+```text
+C:\xampp\htdocs\online-food-ordering
+```
+then the SQL file is here:
+```text
+C:\xampp\htdocs\online-food-ordering\sql\database.sql
+```
+
+To import it in phpMyAdmin:
+1. Open `http://localhost/phpmyadmin`.
+2. Click the database `food_ordering_system` from the left sidebar.
+3. Click the **Import** tab at the top.
+4. Click **Choose File** / **Browse**.
+5. Select `database.sql` from the project's `sql` folder.
+6. Click **Import** / **Go** at the bottom.
+
 This SQL file automatically creates all required tables and inserts:
 - default admin account
 - sample food items
